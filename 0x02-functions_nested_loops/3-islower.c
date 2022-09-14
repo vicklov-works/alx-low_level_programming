@@ -1,19 +1,19 @@
 
 /**
  * _islower - checks for lowercase character
- * c - input that is to be checked
+ * @c - input that is to be checked
  *
- * Returns: void
+ * Returns: 1 if its lowercase, 0 if otherwise
  */
 
 int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if (c >= 97  && c <= 122)
 	{
-		putchar(1);
+		return(1);
 	}
 	else
 	{
-		putchar(0);
+		return(0);
 	}
 }

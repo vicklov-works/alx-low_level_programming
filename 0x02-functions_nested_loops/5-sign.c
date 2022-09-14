@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 /**
  * print_sign - function that checks for sign

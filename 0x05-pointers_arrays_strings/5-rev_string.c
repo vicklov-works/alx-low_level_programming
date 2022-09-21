@@ -9,9 +9,20 @@
 
 void rev_string(char *s)
 {
-	if (*s != '\0')
+	//if (*s != '\0')
 	{
-		rev_string(s + 1);
-		_putchar(*s);
+		//rev_string(s + 1);
+		//_putchar(*s);
 	}
+	int c = 0;
+
+	while (*(s + c))
+		c++;
+	c = c - 1;
+	while (c >= 0)
+	{
+		_putchar(*(s + c));
+		c--;
+	}
+	_putchar('\n');
 }

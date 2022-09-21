@@ -10,10 +10,9 @@
 
 void _puts(char *str)
 {
-	while (*str != '\0')
+	while (*str)
 	{
 		putchar(*str);
 		str++;
 	}
-	return (0);
 }

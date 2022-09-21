@@ -12,9 +12,10 @@ void _puts(char *str)
 {
 	if (*str == 0)
 	{
-		putchar('\n');
+		_putchar('\n');
 		return;
 	}
-	_putchar(*s);
-	_puts(s + 1);
+	
+	_putchar(*str);
+	_puts(str + 1);
 }

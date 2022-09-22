@@ -2,33 +2,33 @@
 #include <stdio.h>
 
 /**
-* _strcmp - Compares two strings
-* @s1: string one
-* @s2: string two
+* _strcmp - function that compares two strings
+* @s1: firstbstring
+* @s2: second string
 *
-* Return: value after subtraction
+* Return: Differences
 */
 
 int _strcmp(char *s1, char *s2)
 {
-	int i;
-	int sub = 0;
+	int a;
+	int differ = 0;
 
-	for (i = 0; s1[i] != '\0'; i++)
+	for (a = 0; s1[a] != '\0'; a++)
 	{
-		if (s1[i] == s2[i])
+		if (s1[a] == s2[a])
 		{
 			continue;
 		}
 		else
 		{
-			if (s2[i] != '\0')
+			if (s2[a] != '\0')
 			{
-				diff = s1[i] - s2[i];
+				differ = s1[a] - s2[a];
 				break;
 			}
 		}
 	}
 
-	return (sub);
+	return (differ);
 }

@@ -3,8 +3,8 @@
 
 /**
 * _strcmp - Compares two strings
-* @s1: String one
-* @s2: String two
+* @s1: string one
+* @s2: string two
 *
 * Return: value after subtraction
 */

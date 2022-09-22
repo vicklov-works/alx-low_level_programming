@@ -45,3 +45,4 @@ char *cap_string(char *c)
 	}
 
 	return (c);
+}

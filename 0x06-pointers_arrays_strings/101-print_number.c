@@ -9,8 +9,7 @@
 
 void print_number(int n)
 {
-	unsigned int tens;
-	unsigned int number, pos = n;
+	unsigned int tens, number, pos = n;
 	double t = 1;
 
 	if (n == 0)

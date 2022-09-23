@@ -1,16 +1,18 @@
+#include "main.h"
 
 /**
- * print_numbers - function thag prints 1 to 9
- * Return: 0 for success
- */
-
+* print_numbers - function that prints the number  0 to 9
+*
+* Return: The  number 0 to 9
+*/
 void print_numbers(void)
 {
 	int num;
 
 	for (num = 0; num <= 9; num++)
 	{
-		putchar(num + '0');
+		_putchar(num + '0');
 	}
-	putchar('\n');
+
+	_putchar('\n');
 }
